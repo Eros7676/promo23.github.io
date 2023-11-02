@@ -1,0 +1,158 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#texto{
+	position:absolute;
+	font-family: Brush Script MT; 
+	font-size: 170pt;
+	margin:0;
+}
+
+#titulo{
+	position:absolute;
+	font-family: Brush Script MT; 
+	font-size: 25pt;
+	margin:0;
+}
+
+#titulo2{
+	position:absolute;
+	font-family: Brush Script MT; 
+	font-size: 35pt;
+	margin:0;
+	
+	color:#FAD025;
+}
+
+.container{
+	position:relative;
+	height:100%;
+	width:100%;
+}
+
+.animar {
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	width: 200px;
+	height: 200px;
+	animation: slide-in 1s ease-in-out forwards;
+  
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+}
+
+.animar2 {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	width: 200px;
+	height: 200px;
+	animation: slide-in-right 1s ease-in-out forwards;
+  
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+}
+
+.animar3 {
+	position: absolute;
+	left: 50%;
+	top: 65%;
+	width: 200px;
+	height: 200px;
+	animation: slide-in 1s ease-in-out forwards;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+}
+
+.animarTitulo{
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	width: 200px;
+	height: 100px;
+	
+	animation: slide-in-up 2s ease-in-out forwards;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(-50%);
+}
+
+.animarTitulo2{
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	width: 300px;
+	height: 100px;
+	
+	animation: opacity-animate 3s ease-in-out forwards;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(-50%);
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1200%);
+  }
+  70% {
+    transform: translateX(30%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1200%);
+  }
+  70% {
+    transform: translateX(-80%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slide-in-up {
+	0% {
+		transform: translateX(-50%) translateY(100%);
+	}
+	50% {
+		transform: translateX(-50%) translateY(100%);
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%);
+	}
+}
+
+@keyframes opacity-animate {
+	0% {
+		opacity:0;
+	}
+	66%{
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
