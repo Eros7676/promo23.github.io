@@ -1,7 +1,21 @@
 @font-face {
-  font-family: 'fuentePersonalizada';
-  /*src: url('AlexBrush-Regular.ttf') format('ttf');*/
-  src: url('KolkerBrush-Regular.ttf') format('truetype');
+  font-family: 'fuentePersonalizada2';
+  src: url('LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'fuentePersonalizada3';
+  src: url('DMSerifDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'fuentePersonalizada4';
+  src: url('Satisfy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'fuentePersonalizada5';
+  src: url('Thrainly Sellier (Free).otf') format('opentype');
 }
 
 body, html {
@@ -12,37 +26,38 @@ body, html {
 
 #texto{
 	position:absolute;
-	font-family: fuentePersonalizada; 
+	font-family: fuentePersonalizada2; 
 	font-size: 170pt;
 	margin:0;
 }
 
 #titulo{
 	position:absolute;
-	font-family: Brush Script MT; 
+	font-family: fuentePersonalizada3; 
 	font-size: 25pt;
 	margin:0;
 }
 
 #titulo2{
 	position:absolute;
-	font-family: Brush Script MT; 
-	font-size: 35pt;
+	font-family: fuentePersonalizada4; 
+	font-size: 25pt;
 	margin:0;
-	
-	color:#FAD025;
+	color:#005109;
 }
 
 .container{
 	position:relative;
 	height:100%;
 	width:100%;
+	
+	animation: desaparecer 6s ease-in-out forwards;
 }
 
 .animar {
 	position: absolute;
 	left: 50%;
-	top: 15%;
+	top: 5vh;
 	width: 200px;
 	height: 200px;
 	animation: slide-in 1s ease-in-out forwards;
@@ -56,7 +71,7 @@ body, html {
 .animar2 {
 	position: absolute;
 	left: 50%;
-	top: 40%;
+	top: 35vh;
 	width: 200px;
 	height: 200px;
 	animation: slide-in-right 1s ease-in-out forwards;
@@ -70,7 +85,7 @@ body, html {
 .animar3 {
 	position: absolute;
 	left: 50%;
-	top: 65%;
+	top: 65vh;
 	width: 200px;
 	height: 200px;
 	animation: slide-in 1s ease-in-out forwards;
@@ -84,8 +99,8 @@ body, html {
 .animarTitulo{
 	position: absolute;
 	left: 50%;
-	top: 90%;
-	width: 200px;
+	top: 89vh;
+	width: 500px;
 	height: 100px;
 	
 	animation: slide-in-up 2s ease-in-out forwards;
@@ -101,8 +116,8 @@ body, html {
 .animarTitulo2{
 	position: absolute;
 	left: 50%;
-	top: 90%;
-	width: 300px;
+	top: 90vh;
+	width: 90%;
 	height: 100px;
 	
 	animation: opacity-animate 3s ease-in-out forwards;
@@ -156,6 +171,64 @@ body, html {
 		opacity:0;
 	}
 	66%{
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@keyframes desaparecer {
+	0% {
+		opacity:1;
+	}
+	83%{
+		opacity:1;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+#titulo-2{
+	position:absolute;
+	font-family: fuentePersonalizada5; 
+	font-size: 50pt;
+	margin:0;
+	color:#A99F90;
+}
+
+.container-2{
+	position:absolute;
+	height:100%;
+	width:100%;
+	
+	top:0;
+}
+
+.titulo{
+	position: absolute;
+	left: 50%;
+	top: 35vh;
+	width: 90%;
+	height: 100px;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(-50%);
+	
+	animation: aparecer 8s ease-in-out forwards;
+}
+
+
+@keyframes aparecer {
+	0% {
+		opacity:0;
+	}
+	87%{
 		opacity:0;
 	}
 	100% {
