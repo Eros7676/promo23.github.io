@@ -28,21 +28,21 @@ body, html {
 	position:absolute;
 	font-family: fuentePersonalizada2; 
 	/*font-size: 170pt;*/
-	font-size: 20vh;
+	font-size: 17vh;
 	margin:0;
 }
 
 #titulo{
 	position:absolute;
 	font-family: fuentePersonalizada3; 
-	font-size: 25pt;
+	font-size: 2vh;
 	margin:0;
 }
 
 #titulo2{
 	position:absolute;
 	font-family: fuentePersonalizada4; 
-	font-size: 25pt;
+	font-size: 2vh;
 	margin:0;
 	color:#005109;
 }
