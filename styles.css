@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'fuentePersonalizada';
   /*src: url('AlexBrush-Regular.ttf') format('ttf');*/
-  src: url('fonts/KolkerBrush-Regular.ttf') format('truetype');
+  src: url('KolkerBrush-Regular.ttf') format('truetype');
 }
 
 body, html {
