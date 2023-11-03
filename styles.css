@@ -72,7 +72,7 @@ body, html {
 .animar2 {
 	position: absolute;
 	left: 50%;
-	top: 37vh;
+	top: 32vh;
 	width: 200px;
 	height: 200px;
 	animation: slide-in-right 1s ease-in-out forwards;
@@ -86,7 +86,7 @@ body, html {
 .animar3 {
 	position: absolute;
 	left: 50%;
-	top: 67vh;
+	top: 57vh;
 	width: 200px;
 	height: 200px;
 	animation: slide-in 1s ease-in-out forwards;
@@ -100,7 +100,7 @@ body, html {
 .animarTitulo{
 	position: absolute;
 	left: 50%;
-	top: 81vh;
+	top: 85vh;
 	width: 500px;
 	height: 100px;
 	
@@ -157,10 +157,10 @@ body, html {
 
 @keyframes slide-in-up {
 	0% {
-		transform: translateX(-50%) translateY(100%);
+		transform: translateX(-50%) translateY(200%);
 	}
 	50% {
-		transform: translateX(-50%) translateY(100%);
+		transform: translateX(-50%) translateY(200%);
 	}
 	100% {
 		transform: translateX(-50%) translateY(-50%);
