@@ -233,6 +233,14 @@ body, html {
 	color:black;
 }
 
+#ubicacion{
+	position:absolute;
+	font-family: fuente2; 
+	font-size: 3vh;
+	margin:0;
+	color:golden;
+}
+
 #tiempoPago{
 	position:absolute;
 	font-family: fuente3; 
@@ -254,7 +262,7 @@ body, html {
 .titulo{
 	position: absolute;
 	left: 50%;
-	top: 12vh;
+	top: 13vh;
 	width: 90%;
 	height: 100px;
 	
@@ -272,7 +280,7 @@ body, html {
 	position: absolute;
 	left: 30%;
 	top: 37vh;
-	width: 45%;
+	width: 40%;
 	height: 100px;
 	
 	display:flex;
@@ -289,7 +297,7 @@ body, html {
 	position: absolute;
 	left: 30%;
 	top: 49vh;
-	width: 45%;
+	width: 40%;
 	height: 100px;
 	
 	display:flex;
@@ -306,7 +314,7 @@ body, html {
 	position: absolute;
 	right: 30%;
 	top: 37vh;
-	width: 49%;
+	width: 45%;
 	height: 100px;
 	
 	display:flex;
@@ -336,10 +344,10 @@ body, html {
 	transform: translateX(50%);
 }
 
-.tiempoPago{
+.ubicacion{
 	position: absolute;
 	left: 50%;
-	top: 82vh;
+	top: 69vh;
 	width: 90%;
 	height: 100px;
 	
@@ -347,6 +355,25 @@ body, html {
 	
 	justify-content:center;
 	align-items:center;
+	
+	text-align:center;
+	
+	transform: translateX(-50%);
+}
+
+.tiempoPago{
+	position: absolute;
+	left: 50%;
+	top: 81vh;
+	width: 90%;
+	height: 100px;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	text-align:center;
 	
 	transform: translateX(-50%);
 }
