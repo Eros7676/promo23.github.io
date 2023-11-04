@@ -159,10 +159,10 @@ body, html {
 
 @keyframes slide-in-up {
 	0% {
-		transform: translateX(-50%) translateY(200%);
+		transform: translateX(-50%) translateY(300%);
 	}
 	50% {
-		transform: translateX(-50%) translateY(200%);
+		transform: translateX(-50%) translateY(300%);
 	}
 	100% {
 		transform: translateX(-50%) translateY(-50%);
