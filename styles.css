@@ -100,7 +100,7 @@ body, html {
 .animarTitulo{
 	position: absolute;
 	left: 50%;
-	top: 85vh;
+	top: 82vh;
 	width: 90%;
 	height: 100px;
 	
@@ -117,7 +117,7 @@ body, html {
 .animarTitulo2{
 	position: absolute;
 	left: 50%;
-	top: 90vh;
+	top: 87vh;
 	width: 90%;
 	height: 100px;
 	
@@ -204,7 +204,7 @@ body, html {
 #fecha1{
 	position:absolute;
 	font-family: fuente4; 
-	font-size: 4vh;
+	font-size: 3vh;
 	margin:0;
 	color:black;
 }
@@ -212,7 +212,7 @@ body, html {
 #fecha2{
 	position:absolute;
 	font-family: fuente3; 
-	font-size: 4vh;
+	font-size: 3vh;
 	margin:0;
 	color:black;
 }
@@ -220,7 +220,7 @@ body, html {
 #aclaraciones1{
 	position:absolute;
 	font-family: fuente4; 
-	font-size: 4vh;
+	font-size: 3vh;
 	margin:0;
 	color:black;
 }
@@ -228,7 +228,7 @@ body, html {
 #aclaraciones2{
 	position:absolute;
 	font-family: fuente3; 
-	font-size: 4vh;
+	font-size: 3vh;
 	margin:0;
 	color:black;
 }
@@ -254,7 +254,7 @@ body, html {
 .titulo{
 	position: absolute;
 	left: 50%;
-	top: 10vh;
+	top: 12vh;
 	width: 90%;
 	height: 100px;
 	
@@ -271,7 +271,7 @@ body, html {
 .fecha1{
 	position: absolute;
 	left: 30%;
-	top: 35vh;
+	top: 37vh;
 	width: 45%;
 	height: 100px;
 	
@@ -279,6 +279,8 @@ body, html {
 	
 	justify-content:left;
 	align-items:center;
+	
+	text-align:left;
 	
 	transform: translateX(-50%);
 }
@@ -286,7 +288,7 @@ body, html {
 .fecha2{
 	position: absolute;
 	left: 30%;
-	top: 47vh;
+	top: 49vh;
 	width: 45%;
 	height: 100px;
 	
@@ -295,13 +297,15 @@ body, html {
 	justify-content:left;
 	align-items:center;
 	
+	text-align:left;
+	
 	transform: translateX(-50%);
 }
 
 .aclaraciones1{
 	position: absolute;
 	right: 30%;
-	top: 35vh;
+	top: 37vh;
 	width: 49%;
 	height: 100px;
 	
@@ -310,20 +314,24 @@ body, html {
 	justify-content:right;
 	align-items:center;
 	
+	text-align:right;
+	
 	transform: translateX(50%);
 }
 
 .aclaraciones2{
 	position: absolute;
 	right: 30%;
-	top: 50vh;
+	top: 49vh;
 	width: 45%;
 	height: 100px;
 	
 	display:flex;
 	
-	justify-content:center;
+	justify-content:right;
 	align-items:center;
+	
+	text-align:right;
 	
 	transform: translateX(50%);
 }
@@ -331,7 +339,7 @@ body, html {
 .tiempoPago{
 	position: absolute;
 	left: 50%;
-	top: 70vh;
+	top: 82vh;
 	width: 90%;
 	height: 100px;
 	
