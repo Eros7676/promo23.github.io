@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'fuentePersonalizada2';
+  font-family: 'fuente2';
   src: url('LibreBaskerville-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'fuentePersonalizada3';
+  font-family: 'fuente3';
   src: url('DMSerifDisplay-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'fuentePersonalizada4';
+  font-family: 'fuente4';
   src: url('Satisfy-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'fuentePersonalizada5';
+  font-family: 'fuente5';
   src: url('Thrainly Sellier (Free).otf') format('opentype');
 }
 
@@ -26,7 +26,7 @@ body, html {
 
 #texto{
 	position:absolute;
-	font-family: fuentePersonalizada2; 
+	font-family: fuente2; 
 	/*font-size: 170pt;*/
 	font-size: 17vh;
 	margin:0;
@@ -34,14 +34,14 @@ body, html {
 
 #titulo{
 	position:absolute;
-	font-family: fuentePersonalizada3; 
+	font-family: fuente3; 
 	font-size: 5vh;
 	margin:0;
 }
 
 #titulo2{
 	position:absolute;
-	font-family: fuentePersonalizada4; 
+	font-family: fuente4; 
 	font-size: 5vh;
 	margin:0;
 	color:#005109;
@@ -100,7 +100,7 @@ body, html {
 .animarTitulo{
 	position: absolute;
 	left: 50%;
-	bottom: 15vh;
+	top: 85vh;
 	width: 500px;
 	height: 100px;
 	
@@ -117,7 +117,7 @@ body, html {
 .animarTitulo2{
 	position: absolute;
 	left: 50%;
-	bottom: 10vh;
+	top: 90vh;
 	width: 90%;
 	height: 100px;
 	
@@ -127,6 +127,8 @@ body, html {
 	
 	justify-content:center;
 	align-items:center;
+	
+	text-align:center;
 	
 	transform: translateX(-50%);
 }
@@ -193,10 +195,50 @@ body, html {
 
 #titulo-2{
 	position:absolute;
-	font-family: fuentePersonalizada5; 
-	font-size: 50pt;
+	font-family: fuente5; 
+	font-size: 10vh;
 	margin:0;
-	color:#A99F90;
+	color:#8E7651;
+}
+
+#fecha1{
+	position:absolute;
+	font-family: fuente4; 
+	font-size: 5vh;
+	margin:0;
+	color:black;
+}
+
+#fecha2{
+	position:absolute;
+	font-family: fuente3; 
+	font-size: 5vh;
+	margin:0;
+	color:black;
+}
+
+#aclaraciones1{
+	position:absolute;
+	font-family: fuente4; 
+	font-size: 5vh;
+	margin:0;
+	color:black;
+}
+
+#aclaraciones2{
+	position:absolute;
+	font-family: fuente3; 
+	font-size: 5vh;
+	margin:0;
+	color:black;
+}
+
+#tiempoPago{
+	position:absolute;
+	font-family: fuente3; 
+	font-size: 5vh;
+	margin:0;
+	color:black;
 }
 
 .container-2{
@@ -205,12 +247,14 @@ body, html {
 	width:100%;
 	
 	top:0;
+	
+	animation: aparecer 8s ease-in-out forwards;
 }
 
 .titulo{
 	position: absolute;
 	left: 50%;
-	top: 35vh;
+	top: 15vh;
 	width: 90%;
 	height: 100px;
 	
@@ -220,8 +264,81 @@ body, html {
 	align-items:center;
 	
 	transform: translateX(-50%);
+}
+
+.fecha1{
+	position: absolute;
+	left: 30%;
+	top: 35vh;
+	width: 45%;
+	height: 100px;
 	
-	animation: aparecer 8s ease-in-out forwards;
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(-50%);
+}
+
+.fecha2{
+	position: absolute;
+	left: 30%;
+	top: 50vh;
+	width: 45%;
+	height: 100px;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(-50%);
+}
+
+.aclaraciones1{
+	position: absolute;
+	right: 30%;
+	top: 35vh;
+	width: 45%;
+	height: 100px;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(50%);
+}
+
+.aclaraciones2{
+	position: absolute;
+	right: 30%;
+	top: 50vh;
+	width: 45%;
+	height: 100px;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(50%);
+}
+
+.tiempoPago{
+	position: absolute;
+	left: 50%;
+	top: 70vh;
+	width: 90%;
+	height: 100px;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+	transform: translateX(-50%);
 }
 
 
